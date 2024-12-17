@@ -1,0 +1,60 @@
+/* Container styling */
+.left-menu {
+    width: 250px;
+    height: 120vh; /* Full height */
+    background-color: #2c3e50; /* Dark blue-gray */
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+  }
+  
+  /* Menu title */
+  .menu-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #34495e; /* Subtle separator */
+    padding-bottom: 10px;
+  }
+  
+  /* Menu list */
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Menu items */
+  .menu-item {
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .menu-item:hover {
+    background-color:#0a7c66; /* Teal */
+    color: white;
+  }
+  
+  /* Active menu item (example class for future use) */
+  .menu-item.active {
+    background-color: #16a085; /* Darker teal */
+    color: white;
+  }
+  
+
+  /* Active menu item styling */
+.menu-item.active {
+  background-color: #16a085; /* Darker teal for the active state */
+  color: white;
+  font-weight: bold; /* Optional: Emphasize the active item */
+}

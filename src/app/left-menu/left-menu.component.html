@@ -1,0 +1,12 @@
+<div class="left-menu">
+  <h3 style="text-align: center;">Freight Analysis Framework</h3>
+  <ul class="menu-list">
+    <li 
+      *ngFor="let item of menuItems" 
+      (click)="onMenuItemClick(item)" 
+      [class.active]="item === selectedItem" 
+      class="menu-item">
+      {{ item }}
+    </li>
+  </ul>
+</div>
